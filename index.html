@@ -5,9 +5,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AlizRepo</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>AlizRepo</h1>
-    <h2>Comandos Git</h2>
+
+    <header>
+      <h1>AlizRepo</h1>
+     
+    </header>
+  
+    <div class="container">
+        <h2>Comandos Git</h2>
+      <div class="card">
+        <h2>Inicializar repositorio</h2>
+        <code>git init</code>
+        <p>Crea un nuevo repositorio Git local en el directorio actual.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Clonar repositorio</h2>
+        <code>git clone &lt;url&gt;</code>
+        <p>Copia un repositorio remoto en tu máquina local.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Agregar cambios</h2>
+        <code>git add .</code>
+        <p>Agrega todos los archivos modificados al área de preparación (staging).</p>
+      </div>
+  
+      <div class="card">
+        <h2>Confirmar cambios</h2>
+        <code>git commit -m "mensaje"</code>
+        <p>Confirma los cambios añadidos al staging con un mensaje descriptivo.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Ver estado</h2>
+        <code>git status</code>
+        <p>Muestra los archivos modificados y su estado respecto al repositorio.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Ver historial</h2>
+        <code>git log</code>
+        <p>Muestra un historial de confirmaciones del repositorio.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Subir cambios</h2>
+        <code>git push</code>
+        <p>Envía tus commits locales al repositorio remoto.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Obtener cambios</h2>
+        <code>git pull</code>
+        <p>Descarga y combina los cambios del repositorio remoto.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Cambiar de rama</h2>
+        <code>git checkout &lt;rama&gt;</code>
+        <p>Cambia a otra rama existente en el repositorio.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Crear nueva rama</h2>
+        <code>git branch &lt;nombre&gt;</code>
+        <p>Crea una nueva rama sin cambiarte a ella automáticamente.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Fusionar ramas</h2>
+        <code>git merge &lt;rama&gt;</code>
+        <p>Combina una rama con la rama actual.</p>
+      </div>
+  
+      <div class="card">
+        <h2>Eliminar rama</h2>
+        <code>git branch -d &lt;rama&gt;</code>
+        <p>Elimina una rama local de manera segura.</p>
+      </div>
+  
+    </div>
+  
+    <footer>
+        Hecho para aprender Git
+    </footer>
+  
   </body>
+  </html>
 </html>
