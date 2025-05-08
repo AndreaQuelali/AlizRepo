@@ -106,3 +106,19 @@ footer {
   vertical-align: middle;
   margin-right: 5px;
 }
+
+.search-input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #6c5ce7;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
