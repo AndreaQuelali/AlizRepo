@@ -1,1 +1,1 @@
-Hola gente
+Hi guys, esta es una pagina personal sobre los comandos git que aprendi en el curso de Git-Github
