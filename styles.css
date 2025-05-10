@@ -123,6 +123,7 @@ footer {
   align-items: center;
 }
 
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -141,4 +142,19 @@ footer {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #00a8ff;
+
+.subtitle {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
 }
