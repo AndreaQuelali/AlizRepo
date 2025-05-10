@@ -1,21 +1,35 @@
-# Mi html
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AlizRepo</title>
+    <link rel="icon" type="image/png" href="alizRepoIcon.png">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <ul>
+        <li><img src="alizRepoIconB.png" alt="Logo" class="nav-icon" /></li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Comandos Básicos</a></li>
+        <li><a href="#">Tutoriales</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="search">    
+      <h2 class="subtitle">Comandos Git</h2>
+      <input
+      type="text"
+      id="searchInput"
+      placeholder="Buscar comando..."
+      class="search-input"
+      />
+    </div>
 
-    <header>
-      <h1>AlizRepo</h1>
-     
-    </header>
-  
+
     <div class="container">
-        <h2>Comandos Git</h2>
+      
       <div class="card">
         <h2>Inicializar repositorio</h2>
         <code>git init</code>
@@ -93,7 +107,8 @@
     <footer>
         Hecho para aprender Git
     </footer>
-  
+    <script src="main.js"></script>
+
   </body>
   </html>
 </html>
