@@ -34,11 +34,14 @@ header h1 {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transition: transform 0.2s ease;
+  transition: transform 1s ease;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(108, 92, 231, 0.6);
+  border-color: #00a8ff;
 }
 
 .card h2 {
@@ -123,7 +126,6 @@ footer {
   align-items: center;
 }
 
-
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -155,6 +157,19 @@ footer {
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+
+.card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.card:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 
 }
